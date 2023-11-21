@@ -12,6 +12,17 @@ body {
     color: #FFFFFF;
 }
 
-h1 {
-    color: white;
+.container {
+    width: min(90%, 1000px);
+    border: 3px solid hotpink;
+    margin-inline: auto;
 }
+.bg-gradient {
+/*background: linear-gradient(#FFFFFF, #FAF9F6,dodgerblue);*/
+/*border: 3px solid hotpink;*/
+}
+
+/*.nav {
+   float:right;
+   padding-bottom: 5vh;
+}*/
