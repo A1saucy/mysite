@@ -1,28 +1,67 @@
-/*# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 18 23:04:25 2023
-
-@author: Danny
-""" */
-
 body {
-    margin: 0;
-    background: dodgerblue;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.container {
-    width: min(90%, 1000px);
-    border: 3px solid hotpink;
+    background-color: lightgrey;
+    margin-top: 0px;
     margin-inline: auto;
 }
-.bg-gradient {
-/*background: linear-gradient(#FFFFFF, #FAF9F6,dodgerblue);*/
-/*border: 3px solid hotpink;*/
+.container {
+    background-color: lightgrey;
+    margin-inline: auto;
+    width: min(90%, 1500px);
+    margin-top: 0px;
 }
 
-/*.nav {
-   float:right;
-   padding-bottom: 5vh;
+h1 {
+    text-align: center;
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: black;*/
+    height: 10vh;
+    margin-top: 0px;
+    /*background: linear-gradient(300deg, yellow, red);*/
+    background: linear-gradient(50deg,#877F7D,#544C4A); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
+    min-height: 100%;
+    
+}
+
+h2 {
+    text-align: center;
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: black;*/
+    margin: 10px, 50px, 10px;
+    /*width: max(90%, 800px);*/
+}
+
+h3 {
+    text-align: center;
+    
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: black;*/
+    margin: 10px 50px 10px;
+    /*width: max(90%, 800px);*/
+}
+
+/*.topnav {
+    margin-top: 150px;
 }*/
+
+.topnav a{
+    float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 60px;
+}
+
+.topnav a:hover {
+    
+    color: white;
+  }
+
+  .topnav a.active {
+    
+    color: white;
+  }
