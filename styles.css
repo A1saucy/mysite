@@ -3,22 +3,51 @@ body {
     margin-top: 0px;
     margin-inline: auto;
 }
-.container {
-    background-color: #C0C2C9/*Slate Gray*/;
+/*.container {
+    background-color: #C0C2C9;
     margin-inline: auto;
     width: min(90%, 1500px);
     margin-top: 0px;
-}
+} */
+
+@media all and (max-width: 500px) {
+    body {
+        background-color: darkgray;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        
+    }
+
+    body .wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40px, auto));
+        margin-left: 4dvw;
+        margin-right: 4dvw;
+        text-align: center;
+        
+    }
+    h1 {
+        border-radius: 1px;
+        height: 10vh;
+        line-height: 1.5;
+        margin-top: 0px;
+        width: 100vw;
+        overflow: auto;
+    }
+} /* end of media query <500px */
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  margin-left: 10dvh;
-  margin-right: 10dvh;
+  margin-left: 10dvw;
+  margin-right: 10dvw;
   
-
+  /* border-style: solid;
+    border-width: 3px;
+    border-color: black; */
 }
 .one {
   grid-column: 1 / 2;
