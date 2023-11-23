@@ -1,28 +1,66 @@
 body {
-    background-color: lightgrey;
+    background-color: #C0C2C9/*Slate Gray*/;
     margin-top: 0px;
     margin-inline: auto;
 }
 .container {
-    background-color: lightgrey;
+    background-color: #C0C2C9/*Slate Gray*/;
     margin-inline: auto;
     width: min(90%, 1500px);
     margin-top: 0px;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: 10dvh;
+  margin-right: 10dvh;
+  
+
+}
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 3;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
+
 h1 {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    overflow: hidden;
     text-align: center;
     /*border-style: solid;
     border-width: 3px;
     border-color: black;*/
-    height: 3em;
-    line-height: 3em;
+    height: 10vh;
+    line-height: 1.5;
     margin-top: 0px;
     /*background: linear-gradient(300deg, yellow, red);*/
-    background: linear-gradient(50deg,#877F7D,#544C4A); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
-    min-height: 100%;
-    
-    
+    background: linear-gradient(50deg,#FCAC40,#FC4A40); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
+    /*min-height: 100%;*/
+    /* #FCAC40 ORANGE #FC4A40 CHILI PEPPER */
 }
 
 h2 {
@@ -46,7 +84,7 @@ h3 {
 
 /*.topnav {
     margin-top: 150px;
-}
+}*/
 
 .topnav a{
     float: left;
@@ -55,7 +93,7 @@ h3 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 
 .topnav a:hover {
@@ -66,36 +104,4 @@ h3 {
   .topnav a.active {
     
     color: white;
-  }*/
-  
-  /* Style the list */
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  /*background-color: #eee;*/
-}
-
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
+  }
