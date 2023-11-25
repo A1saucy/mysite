@@ -34,12 +34,10 @@ body {
         height: 10vh;
         line-height: 3;
         margin-top: 0px;
+        text-align: justify-all;
+        
     }
 
-    body h3 {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
 
 } /* end of media query <500px */
 
@@ -55,9 +53,9 @@ body {
     body .wrapper {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(35px, auto));
-        grid-auto-rows: minmax(10px, auto);
-        margin-left: 4dvw;
-        margin-right: 4dvw;
+        grid-auto-rows: minmax(20px, auto);
+        margin-left: 5dvw;
+        margin-right: 5dvw;
         text-align: center;
         
         
@@ -67,14 +65,10 @@ body {
         height: 10vh;
         line-height: 1.1;
         margin-top: 0px;
-    }
-
-    body h3 {
-        margin-left: 0px;
-        margin-right: 0px;
+        text-align: center;
+        
     }
 } /* end of media query <400px */
-
 
 .wrapper {
   display: grid;
@@ -126,7 +120,7 @@ h1 {
     line-height: 1.5;
     margin-top: 0px;
     /*background: linear-gradient(300deg, yellow, red);*/
-    background: linear-gradient(50deg,#FCAC40,#FC4A40); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
+    background: linear-gradient(to right,#FCAC40,#FC4A40); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
     /*min-height: 100%;*/
     /* #FCAC40 ORANGE #FC4A40 CHILI PEPPER */
 }
