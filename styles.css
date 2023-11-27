@@ -104,7 +104,7 @@ body {
 .two {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  background: white;
+  background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
@@ -112,7 +112,7 @@ body {
 .three {
   grid-column: 3;
   grid-row: 1 / 3;
-  background: white;
+  background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
@@ -120,7 +120,7 @@ body {
 .four {
   grid-column: 3;
   grid-row: 3;
-  background: white;
+  background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
@@ -128,7 +128,7 @@ body {
 .five {
   grid-column: 2;
   grid-row: 2;
-  background: white;
+  background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
@@ -136,7 +136,7 @@ body {
 .six {
   grid-column: 2;
   grid-row: 3;
-  background: white;
+  background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
   width: fit-content;
@@ -152,7 +152,7 @@ h1 {
     border-width: 3px;
     border-color: black;*/
     height: 10vh;
-    line-height: 3;
+    line-height: 2;
     margin-top: 0px;
     /*background: linear-gradient(300deg, yellow, red);*/
     background: linear-gradient(to right,#FCAC40,#FC4A40); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
