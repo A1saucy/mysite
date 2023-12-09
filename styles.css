@@ -111,7 +111,7 @@ body {
 }
 .three {
   grid-column: 3;
-  grid-row: 1 / 3;
+  grid-row: 2 / 3;
   background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
@@ -119,7 +119,7 @@ body {
 }
 .four {
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 1;
   background: #f2a26d;
   border-radius: 10px;
   height: fit-content;
@@ -158,6 +158,9 @@ h1 {
     background: linear-gradient(to right,#FCAC40,#FC4A40); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
     /*min-height: 100%;*/
     /* #FCAC40 ORANGE #FC4A40 CHILI PEPPER */
+}
+.bg-gradient {
+    height: 15 vh;
 }
 
 h2 {
